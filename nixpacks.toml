@@ -6,7 +6,7 @@ commands = ["gradle wrapper"]
 commands = ["./gradlew build -x test"]
 
 [phases.start]
-commands = ["java -jar build/libs/tu-aplicacion-0.0.1-SNAPSHOT.jar"]
+commands = ["java -jar build/libs/visualizer-0.0.1-SNAPSHOT.jar"]
 
 [runtime]
 language = "java"
