@@ -22,7 +22,6 @@ dependencies {
 
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 
-	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
@@ -32,6 +31,9 @@ dependencies {
 	annotationProcessor("org.projectlombok:lombok")
 
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+	testCompileOnly("org.projectlombok:lombok")
+	testAnnotationProcessor("org.projectlombok:lombok")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.junit.jupiter:junit-jupiter")
