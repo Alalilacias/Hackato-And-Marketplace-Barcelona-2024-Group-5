@@ -1,0 +1,7 @@
+[phases]
+build = "gradle build -x test"
+start = "java -jar build/libs/visualizer-0.0.1-SNAPSHOT.jar"
+
+[runtime]
+language = "java"
+version = "17"  # Asegúrate de que esta versión sea compatible con tu proyecto
