@@ -1,4 +1,4 @@
-package com.commerce.visualizer.Util;
+package com.commerce.visualizer.utils;
 
 import com.commerce.visualizer.model.BusinessStatistic;
 import com.commerce.visualizer.repository.BusinessStatisticRepository;

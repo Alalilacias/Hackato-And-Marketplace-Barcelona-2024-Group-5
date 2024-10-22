@@ -1,7 +1,4 @@
-package com.commerce.visualizer.Util;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+package com.commerce.visualizer.utils;
 
 public class Constants {
 

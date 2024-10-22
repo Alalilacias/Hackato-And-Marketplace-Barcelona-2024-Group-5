@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/visualizer")
+@RequestMapping("/barrisVius")
 public class BusinessStatisticController {
     @Autowired
     BusinessStatisticService businessStatisticService;

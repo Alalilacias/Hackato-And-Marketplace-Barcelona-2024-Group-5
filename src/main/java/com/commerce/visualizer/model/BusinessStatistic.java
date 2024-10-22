@@ -6,14 +6,14 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.List;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Document(collection = "business_statistics")
 public class BusinessStatistic {
 
+        @Id
+        private String id;
         private String nomBarri;
         private int negociosPorBarrio;
         private int diversidadNegociosPorBarrio;
@@ -27,10 +27,9 @@ public class BusinessStatistic {
         private double ratioCategoriaPredominante;
         private Integer negociosMasDe10Anios;
         private int negociosCreadosUltimos5Anios;
-        private int pequeño;
+        private int pequenio;
         private int mediano;
         private int grande;
         private double promedioModificacionAnios;
         private int negociosAltoValor;
 }
-

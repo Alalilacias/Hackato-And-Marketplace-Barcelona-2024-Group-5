@@ -8,10 +8,11 @@ import com.commerce.visualizer.repository.BusinessStatisticRepository;
 import com.commerce.visualizer.service.interfaces.BusinessStatisticService;
 import com.commerce.visualizer.utils.BusinessStatisticMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-
+@Service
 public class BusinessStatisticServiceImpl implements BusinessStatisticService {
 
     @Autowired
