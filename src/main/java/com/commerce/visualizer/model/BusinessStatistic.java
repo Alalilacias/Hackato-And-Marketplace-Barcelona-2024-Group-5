@@ -1,4 +1,4 @@
-package com.commerce.barrisvius.model;
+package com.commerce.visualizer.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

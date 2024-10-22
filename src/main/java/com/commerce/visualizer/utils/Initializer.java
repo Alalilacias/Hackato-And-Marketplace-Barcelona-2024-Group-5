@@ -1,7 +1,7 @@
-package com.commerce.barrisvius.utils;
+package com.commerce.visualizer.utils;
 
-import com.commerce.barrisvius.model.BusinessStatistic;
-import com.commerce.barrisvius.repository.BusinessStatisticRepository;
+import com.commerce.visualizer.model.BusinessStatistic;
+import com.commerce.visualizer.repository.BusinessStatisticRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ public class Initializer implements CommandLineRunner {
     private ObjectMapper objectMapper;
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) throws RuntimeException {
         loadBusinessStatistics();
     }
 

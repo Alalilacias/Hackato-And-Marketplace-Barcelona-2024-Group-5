@@ -1,4 +1,4 @@
-package com.commerce.barrisvius.exceptions;
+package com.commerce.visualizer.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

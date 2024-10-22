@@ -1,4 +1,4 @@
-package com.commerce.barrisvius.dto;
+package com.commerce.visualizer.dto;
 
 import java.util.List;
 
