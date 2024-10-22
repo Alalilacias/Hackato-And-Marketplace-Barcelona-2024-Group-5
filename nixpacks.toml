@@ -1,7 +1,13 @@
 [phases]
-build = "gradle build -x test"
-start = "java -jar build/libs/visualizer-0.0.1-SNAPSHOT.jar"
+[phases.setup]
+commands = ["gradle wrapper"]
+
+[phases.build]
+commands = ["./gradlew build -x test"]
+
+[phases.start]
+commands = ["java -jar build/libs/tu-aplicacion-0.0.1-SNAPSHOT.jar"]
 
 [runtime]
 language = "java"
-version = "17"  # Asegúrate de que esta versión sea compatible con tu proyecto
+version = "17"  # Cambia la versión según la que estés utilizando
