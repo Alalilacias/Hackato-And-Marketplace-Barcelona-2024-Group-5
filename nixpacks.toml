@@ -1,0 +1,13 @@
+[phases]
+[phases.setup]
+commands = ["gradle wrapper"]
+
+[phases.build]
+commands = ["./gradlew build -x test"]
+
+[phases.start]
+commands = ["java -jar build/libs/visualizer-0.0.1-SNAPSHOT.jar"]
+
+[runtime]
+language = "java"
+version = "21"  # Cambia la versión según la que estés utilizando
