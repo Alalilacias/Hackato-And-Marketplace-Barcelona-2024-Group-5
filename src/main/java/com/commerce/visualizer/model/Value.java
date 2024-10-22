@@ -13,7 +13,4 @@ public class Value {
     private String value;
     private Boolean outstanding;
     private String description;
-
-    // Getters and Setters
 }
-

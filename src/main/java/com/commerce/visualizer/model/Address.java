@@ -16,7 +16,4 @@ public class Address {
     private Integer zipCode;
     private String town;
     private Boolean mainAddress;
-
-
-    // Getters and Setters
 }

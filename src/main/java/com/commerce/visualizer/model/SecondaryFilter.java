@@ -11,7 +11,5 @@ public class SecondaryFilter {
     private String fullpath;
     private Integer tree;
     private Long asiaId;
-
-    // Getters and Setters
+  
 }
-

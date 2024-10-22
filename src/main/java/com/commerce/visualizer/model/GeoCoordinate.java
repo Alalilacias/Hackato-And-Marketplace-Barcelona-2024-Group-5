@@ -9,6 +9,4 @@ public class GeoCoordinate {
     private Double epgs25831Y;
     private Double epgs4326Lat;
     private Double epgs4326Lon;
-
-    // Getters y setters
 }
