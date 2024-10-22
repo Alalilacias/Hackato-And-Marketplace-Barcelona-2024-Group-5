@@ -2,9 +2,6 @@
 Github for the submission of the Group 5 of the Hackaton and Marketplace, Salo d'Ocupacio 2024. 
 
 
-ProvaBackendHackatoSaloOcupacio
-Prova tecnica
-
 Descripció
 
 Aquest projecte és una API desenvolupada amb Spring Boot en Java. Permet la comunicó amb les dades a través d'operacions HTTP.
@@ -24,7 +21,7 @@ Configuració del projecte
 
 Clona el repositori al teu ordinador:
 
-git clone https://github.com/AriRuizMartinez/ProvaBackendHackatoSaloOcupacio.git
+git clone https://github.com/AriRuizMartinez/Hackaton-Group-5.git
 Despres obre el teu IDE:
 
 Importa el projecte.
@@ -44,7 +41,7 @@ GET-http://localhost:9000/barrisVius/businessStatistics
 
 GET-http://localhost:9000/barrisVius/neighborhoodsAndActivities
 
-    Per mitja de d'una petició GET retorna l'informació d'un usuari, el de l'id especificada. Per fer aquesta peticio ha de ser un id valid i sense {}. Ex: http://localhost:9000/appActivitats/users/1
+    Per mitja de d'una petició GET retorna l'informació dels barris i les activitats.
 
 
 Amb els endpoints es compleixen els requisits tecnics i funcionals esmentats. La resta de requisits també es compleixen:
