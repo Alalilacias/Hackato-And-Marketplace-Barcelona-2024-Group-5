@@ -1,4 +1,4 @@
-package com.commerce.visualizer;
+package com.commerce.barrisvius;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

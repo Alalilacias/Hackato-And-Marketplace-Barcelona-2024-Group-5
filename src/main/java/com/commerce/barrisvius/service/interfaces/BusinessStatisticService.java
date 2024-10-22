@@ -1,7 +1,7 @@
-package com.commerce.visualizer.service.interfaces;
+package com.commerce.barrisvius.service.interfaces;
 
-import com.commerce.visualizer.dto.BusinessStatisticDTO;
-import com.commerce.visualizer.dto.InitialFormDTO;
+import com.commerce.barrisvius.dto.BusinessStatisticDTO;
+import com.commerce.barrisvius.dto.InitialFormDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

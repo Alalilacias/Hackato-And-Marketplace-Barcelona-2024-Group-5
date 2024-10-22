@@ -1,12 +1,12 @@
-package com.commerce.visualizer.service;
+package com.commerce.barrisvius.service;
 
-import com.commerce.visualizer.dto.BusinessStatisticDTO;
-import com.commerce.visualizer.dto.InitialFormDTO;
-import com.commerce.visualizer.exceptions.BusinessStatisticNotFoundException;
-import com.commerce.visualizer.model.BusinessStatistic;
-import com.commerce.visualizer.repository.BusinessStatisticRepository;
-import com.commerce.visualizer.service.interfaces.BusinessStatisticService;
-import com.commerce.visualizer.utils.BusinessStatisticMapper;
+import com.commerce.barrisvius.dto.BusinessStatisticDTO;
+import com.commerce.barrisvius.dto.InitialFormDTO;
+import com.commerce.barrisvius.exceptions.BusinessStatisticNotFoundException;
+import com.commerce.barrisvius.model.BusinessStatistic;
+import com.commerce.barrisvius.repository.BusinessStatisticRepository;
+import com.commerce.barrisvius.service.interfaces.BusinessStatisticService;
+import com.commerce.barrisvius.utils.BusinessStatisticMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
-package com.commerce.visualizer.controller;
+package com.commerce.barrisvius.controller;
 
-import com.commerce.visualizer.dto.BusinessStatisticDTO;
-import com.commerce.visualizer.dto.InitialFormDTO;
-import com.commerce.visualizer.service.interfaces.BusinessStatisticService;
+import com.commerce.barrisvius.dto.BusinessStatisticDTO;
+import com.commerce.barrisvius.dto.InitialFormDTO;
+import com.commerce.barrisvius.service.interfaces.BusinessStatisticService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

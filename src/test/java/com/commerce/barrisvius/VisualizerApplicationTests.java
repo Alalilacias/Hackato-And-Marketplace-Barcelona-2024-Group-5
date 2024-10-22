@@ -1,4 +1,4 @@
-package com.commerce.visualizer;
+package com.commerce.barrisvius;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
