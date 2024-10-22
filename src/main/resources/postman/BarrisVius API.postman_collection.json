@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "16ed57fc-d5a7-436d-a379-23c68efe9982",
+		"name": "BarrisVius API",
+		"description": "Collection to test BarrisVius API endpoints.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34173504"
+	},
+	"item": [
+		{
+			"name": "Get BusinessStatistic by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/barrisVius/businessStatistics/{{id}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"barrisVius",
+						"businessStatistics",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All BusinessStatistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/barrisVius/businessStatistics",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"barrisVius",
+						"businessStatistics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Neighborhoods and Activities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/barrisVius/neighborhoodsAndActivities",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"barrisVius",
+						"neighborhoodsAndActivities"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "http://localhost:8080"
+		},
+		{
+			"key": "id",
+			"value": "67180545ce784a47fb9a3266"
+		}
+	]
+}

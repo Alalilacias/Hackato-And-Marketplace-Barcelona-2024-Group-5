@@ -1,6 +1,6 @@
-package com.commerce.barrisvius.repository;
+package com.commerce.visualizer.repository;
 
-import com.commerce.barrisvius.model.BusinessStatistic;
+import com.commerce.visualizer.model.BusinessStatistic;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

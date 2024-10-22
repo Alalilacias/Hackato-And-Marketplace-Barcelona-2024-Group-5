@@ -1,8 +1,8 @@
-package com.commerce.barrisvius.utils;
+package com.commerce.visualizer.utils;
 
-import com.commerce.barrisvius.dto.BusinessStatisticDTO;
-import com.commerce.barrisvius.dto.InitialFormDTO;
-import com.commerce.barrisvius.model.BusinessStatistic;
+import com.commerce.visualizer.dto.BusinessStatisticDTO;
+import com.commerce.visualizer.dto.InitialFormDTO;
+import com.commerce.visualizer.model.BusinessStatistic;
 
 import java.util.Arrays;
 import java.util.List;

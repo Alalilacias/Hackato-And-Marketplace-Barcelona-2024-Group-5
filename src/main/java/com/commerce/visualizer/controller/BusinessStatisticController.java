@@ -1,19 +1,17 @@
-package com.commerce.barrisvius.controller;
+package com.commerce.visualizer.controller;
 
-import com.commerce.barrisvius.dto.BusinessStatisticDTO;
-import com.commerce.barrisvius.dto.InitialFormDTO;
-import com.commerce.barrisvius.service.interfaces.BusinessStatisticService;
+import com.commerce.visualizer.dto.BusinessStatisticDTO;
+import com.commerce.visualizer.dto.InitialFormDTO;
+import com.commerce.visualizer.service.interfaces.BusinessStatisticService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/barrisVius")
+@CrossOrigin(origins = "http://localhost:9000")
 public class BusinessStatisticController {
     @Autowired
     BusinessStatisticService businessStatisticService;

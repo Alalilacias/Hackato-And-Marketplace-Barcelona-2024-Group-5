@@ -1,4 +1,4 @@
-package com.commerce.barrisvius.dto;
+package com.commerce.visualizer.dto;
 
 public record BusinessStatisticDTO(
         String id,

@@ -1,4 +1,4 @@
-package com.commerce.barrisvius.utils;
+package com.commerce.visualizer.utils;
 
 public class Constants {
 
